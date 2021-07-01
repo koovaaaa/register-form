@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: sans-serif;
+}
+
+#table-container{
+	display: flex;
+}
+
+#table-container table{
+	margin-top: 50px;
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+#table-container table th{
+	text-align: left;
+}
+
+#table-container table, 
+#table-container th,
+#table-container tr, 
+#table-container td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#table-container th{
+	background: #666;
+	color: white;
+}
+
+#table-container tr:nth-child(odd) {
+	background: #1195e4;
+}
+
+#table-container tr:nth-child(even) {
+	background: #ddd;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+#button{
+	font-size: 16px;
+	padding: 4px 12px;
+}

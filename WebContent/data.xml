@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><data>
+	<continent name="Europe">
+		<country name="United Kingdom">
+			<!-- Users -->
+			<user>
+				<first_name>John</first_name>
+				<last_name>Smith</last_name>
+				<address>320 Regent Street</address>
+				<city>London</city>
+				<email>john.smith@gmail.com</email>
+				<password>skek3E5k</password>
+			</user>
+			<user>
+				<first_name>Michael</first_name>
+				<last_name>Smith</last_name>
+				<address>322 Regent Street</address>
+				<city>London</city>
+				<email>michael.smith@hotmail.com</email>
+				<password>gk3288skW</password>
+			</user>
+		<user><first_name>Milan</first_name><last_name>Kovacevic</last_name><address>Red Street</address><city>London</city><email>kovas95@gmail.com</email><password>dassae21</password></user></country>
+		<country name="Germany">
+			<!-- Users -->
+			<user>
+				<first_name>Max</first_name>
+				<last_name>Mustermann</last_name>
+				<address>Berlinerstrasse 7</address>
+				<city>Hamburg</city>
+				<email>mmustermann@yahoo.com</email>
+				<password>kdkei44229</password>
+			</user>
+		</country>
+		<country name="France">
+		<user><first_name>Tomas</first_name><last_name>Muller</last_name><address>Saint Lauren 14</address><city>Lyon</city><email>tomas@gmail.com</email><password>dsadasdas</password></user></country>
+	</continent>
+	<continent name="North America">
+		<country name="United States">
+			<!-- Users -->
+			<user>
+				<first_name>Julia</first_name>
+				<last_name>Johnson</last_name>
+				<address>300 Boylston Ave E</address>
+				<city>Seattle</city>
+				<email>julia.johnson@gmail.com</email>
+				<password>49dksSSe3</password>
+			</user>
+		</country>
+		<country name="Canada">
+		<user><first_name>Peter</first_name><last_name>Hansen</last_name><address>Blue Street</address><city>Toronto</city><email>peter@gmail.com</email><password>dsajjlkewq</password></user></country>
+	</continent>
+	<continent name="Asia">
+		<country name="Japan">
+		<user><first_name>Nago</first_name><last_name>Suzuki</last_name><address>Shinuku 15</address><city>Tokyo</city><email>nago@gmail.com</email><password>asddjqwkw</password></user><user><first_name>Takumi</first_name><last_name>Asano</last_name><address>Tokyo E</address><city>Tokyo</city><email>takumi@gmail.com</email><password>jdsajklqe</password></user></country>
+		<country name="China">
+		<user><first_name>Zang</first_name><last_name>Xiao</last_name><address>XDJA 14</address><city>Beijing</city><email>zang@gmail.com</email><password>sdjdajld</password></user></country>
+	</continent>
+</data>

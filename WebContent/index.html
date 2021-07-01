@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Develabs - Projekat</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="form-container">
+        <form action="./shoutServlet" method="post" id="form">
+            <table>
+                <tr>
+                    <td><label for="firstname">First name</label>
+                    <td><input type="text" id="firstname" name="firstname" required>
+                <tr>
+                    <td><label for="lastname">Last name</label>
+                    <td><input type="text" id="lastname" name="lastname" required>
+                <tr>
+                    <td><label for="address" >Address</label>
+                    <td><input type="text" name="address" id="address" required>
+                <tr>
+                    <td><label for="city">City</label>
+                    <td><input type="text" id="city" name="city" required>
+                <tr>
+                    <td><label for="country">Country</label>
+                    <td><select id="country" name="country">
+                            <option value="us">United States</option>
+                            <option value="ca">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="fra">France</option>
+                            <option value="ger">Germany</option>
+                            <option value="ch">China</option>
+                            <option value="ja">Japan</option>								
+                        </select>
+                    <tr>
+                        <td><label for="email">Email</label>
+                        <td><input type="email" id="email" name="email" required>
+                    <tr>
+                        <td><label for="password">Password</label>
+                        <td><input type="password" id="password" name="password" required>
+                    <tr>
+                        <td><input type="button" id="button" value="Register" onclick="checkEMail();">
+            </table>
+        </form>
+    </div>
+
+    <div id="table-container">
+        <table>
+            <thead>
+                <thead>
+					<tr>
+					<th>Full name
+					<th>Address
+					<th>City
+					<th>Country
+					<th>E-mail
+					<th>Action
+            </thead>
+            <tbody id="result">
+            	<tr id="someTr">
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
